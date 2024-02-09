@@ -1,0 +1,37 @@
+@use "../main";
+
+.portfolio-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.15s ease-in;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  padding: 0.4rem;
+
+  .pi-left {
+    width: 250px;
+    display: flex;
+    img {
+      width: 100%;
+      border-radius: 8px;
+    }
+  }
+
+  .pi-right {
+    .pi-info {
+      margin-bottom: 0.8rem;
+    }
+    .pi-tags {
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+.portfolio-item:hover {
+  border: 2px solid main.$green;
+  background: main.$light-green;
+  box-shadow: 0px 0px 50px 0px main.$light-green;
+}

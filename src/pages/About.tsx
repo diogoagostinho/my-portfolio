@@ -38,21 +38,21 @@ function About() {
               </div>
               <div className="about__socials">
                 <SocialButton
-                  socialImage={"diogoagostinho.jpg"}
+                  socialImage={"github.png"}
                   socialTitle={"GitHub"}
                   socialUser={"@diogoagostinho"}
                   socialLink={"https://github.com/diogoagostinho"}
                   socialColor={"pink"}
                 />
                 <SocialButton
-                  socialImage={"diogoagostinho.jpg"}
+                  socialImage={"devdotto.png"}
                   socialTitle={"DEV.to"}
                   socialUser={"@diogoagostinho"}
                   socialLink={"https://dev.to/diogoagostinho"}
                   socialColor={"red"}
                 />
                 <SocialButton
-                  socialImage={"diogoagostinho.jpg"}
+                  socialImage={"linkedin.png"}
                   socialTitle={"LinkedIn"}
                   socialUser={"Diogo Agostinho"}
                   socialLink={
@@ -61,7 +61,7 @@ function About() {
                   socialColor={"blue"}
                 />
                 <SocialButton
-                  socialImage={"diogoagostinho.jpg"}
+                  socialImage={"x.png"}
                   socialTitle={"X (Twitter)"}
                   socialUser={"@agostinho_dev"}
                   socialLink={"https://twitter.com/agostinho_dev"}

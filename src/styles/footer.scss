@@ -1,0 +1,103 @@
+@use "../main";
+
+.footer {
+  background: #000000;
+  color: #ffffff;
+  overflow: hidden;
+  box-shadow: 0px 50px 90px 8px main.$light-green;
+
+  .footer__content {
+    width: 100%;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .footer-left {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      .footer-left-text {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        img {
+          margin-left: 0.8rem;
+          width: 40px;
+        }
+        p {
+          color: #ffffff;
+          font-size: main.$xxl;
+          font-weight: main.$semibold;
+        }
+      }
+      .footer-left-button {
+        p {
+          margin-top: 0.5rem;
+          color: #ffffff;
+          font-weight: main.$regular;
+          font-size: main.$tiny;
+
+          transition: all 0.15s ease-in;
+        }
+        .button-text {
+          opacity: 0;
+          transition: all 0.15s ease-in;
+          transform: translateY(-10px);
+        }
+        .isonbtn {
+          opacity: 1;
+          transform: translateY(0);
+        }
+        .footer-button {
+          display: flex;
+          justify-content: center;
+          padding: 0.6rem 1.4rem;
+          font-size: main.$large;
+          font-weight: main.$semibold;
+          background: transparent;
+          color: #000000;
+          border: 1px solid #09a50e;
+          background: #64ff69;
+          box-shadow: 0px 0px 15px 6px rgba(50, 255, 57, 0.3);
+          border-radius: 10px;
+          transition: all 0.15s ease-in;
+          align-items: center;
+          text-align: center;
+          img {
+            width: 24px;
+          }
+          cursor: pointer;
+        }
+        .footer-button:hover {
+          color: #000000;
+          border: 1px solid #09a50e;
+          background: #c2ffc3;
+          box-shadow: 0px 0px 30px 4px rgba(50, 255, 57, 0.5);
+        }
+      }
+    }
+    .footer-right {
+      position: absolute;
+      right: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: right;
+      text-align: right;
+      p {
+        color: #ffffff;
+        font-size: main.$small;
+        transition: all 0.05s ease-in;
+      }
+      p:hover {
+        font-weight: main.$semibold;
+      }
+      a {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}
