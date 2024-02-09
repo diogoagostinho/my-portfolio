@@ -1,0 +1,83 @@
+//          VARIABLES
+
+//colors
+$light-green: #dfffe0;
+$green: #5fff65;
+$light-pink: #f7eaff;
+$pink: #dca2ff;
+$light-red: #ffdbdb;
+$red: #ff9696;
+$light-blue: #e3e8ff;
+$blue: #91a5ff;
+$light-yellow: #fff4d7;
+$yellow: #ffdf8c;
+$light-black: #252525;
+$lighter-black: #858585;
+$black: #000000;
+$white: #ffffff;
+
+//font-weight
+$extralight: 200;
+$light: 300;
+$regular: 400;
+$semibold: 600;
+$bold: 700;
+
+//font-size
+$tiny: 1.2ch;
+$small: 1.5ch;
+$medium: 1.7ch;
+$large: 2ch;
+$xl: 2.2ch;
+$xxl: 3.4ch;
+
+//          ELEMENTS
+* {
+  font-family: "Clash Grotesk", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: $xxl;
+  font-weight: $semibold;
+  color: $black;
+}
+h2 {
+  font-size: $large;
+  font-weight: $regular;
+  color: $lighter-black;
+}
+h3 {
+  font-size: $xl;
+  font-weight: $semibold;
+  color: $black;
+}
+h4 {
+  font-size: $large;
+  font-weight: $semibold;
+  color: $black;
+}
+p {
+  font-size: $medium;
+  font-weight: $regular;
+  color: $light-black;
+}
+
+//          CLASSES
+.thin {
+  font-weight: $light;
+  color: $lighter-black;
+}
+.small {
+  font-size: $small;
+}
+.tiny {
+  font-size: $tiny;
+  font-weight: $semibold;
+}
+.large {
+  font-size: $large;
+  font-weight: $semibold;
+}
