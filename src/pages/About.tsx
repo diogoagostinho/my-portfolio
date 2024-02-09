@@ -42,12 +42,14 @@ function About() {
                   socialTitle={"GitHub"}
                   socialUser={"@diogoagostinho"}
                   socialLink={"https://github.com/diogoagostinho"}
+                  socialColor={"pink"}
                 />
                 <SocialButton
                   socialImage={"diogoagostinho.jpg"}
                   socialTitle={"DEV.to"}
                   socialUser={"@diogoagostinho"}
                   socialLink={"https://dev.to/diogoagostinho"}
+                  socialColor={"red"}
                 />
                 <SocialButton
                   socialImage={"diogoagostinho.jpg"}
@@ -56,12 +58,14 @@ function About() {
                   socialLink={
                     "https://www.linkedin.com/in/diogo-agostinho-b99a33224/"
                   }
+                  socialColor={"blue"}
                 />
                 <SocialButton
                   socialImage={"diogoagostinho.jpg"}
                   socialTitle={"X (Twitter)"}
                   socialUser={"@agostinho_dev"}
                   socialLink={"https://twitter.com/agostinho_dev"}
+                  socialColor={"yellow"}
                 />
               </div>
             </div>
@@ -70,21 +74,25 @@ function About() {
                 title={"ABOUT ME"}
                 desc={"Learn all about me!"}
                 link={"/"}
+                active={true}
               />
               <NavigationButton
                 title={"WORK"}
                 desc={"View my portfolio"}
                 link={"work"}
+                active={false}
               />
               <NavigationButton
                 title={"RESUME"}
                 desc={"My studies and certifications"}
                 link={"resume"}
+                active={false}
               />
               <NavigationButton
                 title={"EXPERIENCE"}
                 desc={"Everything I know"}
                 link={"experience"}
+                active={false}
               />
             </div>
           </div>

@@ -6,11 +6,12 @@ function SocialButton(props: {
   socialTitle: string;
   socialUser: string;
   socialLink: string;
+  socialColor: string;
 }) {
   return (
     <>
       <Link target="_blank" to={props.socialLink}>
-        <div className="social-button">
+        <div className={"social-button " + props.socialColor}>
           <div className="sb__content">
             <div className="sb-left">
               <img src={props.socialImage} />
