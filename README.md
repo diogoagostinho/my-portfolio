@@ -1,30 +1,56 @@
-# React + TypeScript + Vite
+<h1 align="center">My Portfolio</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+###
 
-Currently, two official plugins are available:
+<h5 align="center">Page for my personal website/portfolio</h5>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+###
 
-## Expanding the ESLint configuration
+<div align="center">
+  
+  ![ReactJS](https://img.shields.io/badge/React-4CB4FF?style=for-the-badge&logo=react&logoColor=white)
+  ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+  ![Vite](https://img.shields.io/badge/Vite-9D5BFE?style=for-the-badge&logo=vite&logoColor=white)
+  ![Netlify](https://img.shields.io/badge/Netlify-05E1BD?style=for-the-badge&logo=netlify&logoColor=white)
+  
+</div>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+###
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+<h3 align="left">Libraries used</h3>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **[Sass](https://www.npmjs.com/package/sass)** - For CSS
+- **[React Router Dom](https://www.npmjs.com/package/react-router-dom)** - For routing
+
+###
+
+<h3 align="left">Fonts used</h3>
+
+- **[Clash Grotesk](https://www.fontshare.com/fonts/clash-grotesk)**
+
+###
+
+<h3 align="left">Visit website now</h3>
+
+- [N/A](#)
+
+###
+
+<h3 align="left">TO DO:</h3>
+
+- Pictures to "experience" page
+- Favicon
+- Backgrounds
+- Transitions
+- Experiment different fonts
+- Deployment
+
+###
+
+---
+
+<p align="center">🚀 Have a look at my <a href="https://github.com/diogoagostinho">Github Profile</a></p>
+
+###

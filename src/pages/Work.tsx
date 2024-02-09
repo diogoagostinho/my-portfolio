@@ -79,19 +79,19 @@ function Work() {
             <NavigationButton
               title={"WORK"}
               desc={"View my portfolio"}
-              link={"work"}
+              link={"/work"}
               active={true}
             />
             <NavigationButton
               title={"RESUME"}
               desc={"My studies and certifications"}
-              link={"resume"}
+              link={"/resume"}
               active={false}
             />
             <NavigationButton
               title={"EXPERIENCE"}
               desc={"Everything I know"}
-              link={"experience"}
+              link={"/experience"}
               active={false}
             />
           </div>

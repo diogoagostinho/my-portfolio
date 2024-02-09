@@ -1,0 +1,25 @@
+@use "../main";
+
+.listitem {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  .listitem-left {
+    width: 50px;
+    display: flex;
+    img {
+      width: 100%;
+    }
+  }
+
+  .listitem-right {
+    h3 {
+      font-size: main.$medium;
+    }
+    h2 {
+      font-size: main.$small;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@use "../main";
+
+.resumestatus {
+  font-size: main.$small;
+  font-weight: main.$regular;
+  color: main.$lighter-black;
+  hr {
+    opacity: 50%;
+  }
+}
+
+.resume-block {
+  margin-top: 1rem;
+  h2 {
+    font-size: main.$small;
+  }
+  p {
+    margin-top: 10px;
+  }
+}
