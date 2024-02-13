@@ -40,11 +40,9 @@
 
 <h3 align="left">TO DO:</h3>
 
-- Pictures to "experience" page
-- Favicon
-- Backgrounds
-- Transitions
-- Experiment different fonts
+- Remove Button animation
+- Experiment FONTS
+- Background
 - Deployment
 
 ###
