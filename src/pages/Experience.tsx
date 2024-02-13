@@ -1,4 +1,4 @@
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import Footer from "../components/Footer";
 import ListItem from "../components/ListItem";
 import NavigationButton from "../components/NavigationButton";
@@ -139,38 +139,33 @@ function Experience() {
               </div>
             </div>
             <div className="work-right">
-              <Slide direction="up" delay={50} duration={500} triggerOnce>
-                <NavigationButton
-                  title={"ABOUT ME"}
-                  desc={"Learn all about me!"}
-                  link={"/"}
-                  active={false}
-                />
-              </Slide>
-              <Slide direction="up" delay={100} duration={500} triggerOnce>
-                <NavigationButton
-                  title={"WORK"}
-                  desc={"View my portfolio"}
-                  link={"/work"}
-                  active={false}
-                />
-              </Slide>
-              <Slide direction="up" delay={150} duration={500} triggerOnce>
-                <NavigationButton
-                  title={"RESUME"}
-                  desc={"My studies and certifications"}
-                  link={"/resume"}
-                  active={false}
-                />
-              </Slide>
-              <Slide direction="up" delay={200} duration={500} triggerOnce>
-                <NavigationButton
-                  title={"EXPERIENCE"}
-                  desc={"Everything I know"}
-                  link={"/experience"}
-                  active={true}
-                />
-              </Slide>
+              <NavigationButton
+                title={"ABOUT ME"}
+                desc={"Learn all about me!"}
+                link={"/"}
+                active={false}
+              />
+
+              <NavigationButton
+                title={"WORK"}
+                desc={"View my portfolio"}
+                link={"/work"}
+                active={false}
+              />
+
+              <NavigationButton
+                title={"RESUME"}
+                desc={"My studies and certifications"}
+                link={"/resume"}
+                active={false}
+              />
+
+              <NavigationButton
+                title={"EXPERIENCE"}
+                desc={"Everything I know"}
+                link={"/experience"}
+                active={true}
+              />
             </div>
           </div>
           <Footer />

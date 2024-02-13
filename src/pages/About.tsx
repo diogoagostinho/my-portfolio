@@ -1,7 +1,7 @@
 import NavigationButton from "../components/NavigationButton";
 import SocialButton from "../components/SocialButton";
 import "../styles/about.scss";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 function About() {
   return (
@@ -74,38 +74,33 @@ function About() {
                 </Fade>
               </div>
               <div className="about-right">
-                <Slide direction="up" delay={50} duration={500}>
-                  <NavigationButton
-                    title={"ABOUT ME"}
-                    desc={"Learn all about me!"}
-                    link={"/"}
-                    active={true}
-                  />
-                </Slide>
-                <Slide direction="up" delay={100} duration={500}>
-                  <NavigationButton
-                    title={"WORK"}
-                    desc={"View my portfolio"}
-                    link={"/work"}
-                    active={false}
-                  />
-                </Slide>
-                <Slide direction="up" delay={150} duration={500}>
-                  <NavigationButton
-                    title={"RESUME"}
-                    desc={"My studies and certifications"}
-                    link={"/resume"}
-                    active={false}
-                  />
-                </Slide>
-                <Slide direction="up" delay={200} duration={500}>
-                  <NavigationButton
-                    title={"EXPERIENCE"}
-                    desc={"Everything I know"}
-                    link={"/experience"}
-                    active={false}
-                  />
-                </Slide>
+                <NavigationButton
+                  title={"ABOUT ME"}
+                  desc={"Learn all about me!"}
+                  link={"/"}
+                  active={true}
+                />
+
+                <NavigationButton
+                  title={"WORK"}
+                  desc={"View my portfolio"}
+                  link={"/work"}
+                  active={false}
+                />
+
+                <NavigationButton
+                  title={"RESUME"}
+                  desc={"My studies and certifications"}
+                  link={"/resume"}
+                  active={false}
+                />
+
+                <NavigationButton
+                  title={"EXPERIENCE"}
+                  desc={"Everything I know"}
+                  link={"/experience"}
+                  active={false}
+                />
               </div>
             </div>
           </div>

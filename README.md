@@ -40,9 +40,7 @@
 
 <h3 align="left">TO DO:</h3>
 
-- Remove Button animation
-- Experiment FONTS
-- Background
+- RESPONSIVE
 - Deployment
 
 ###
