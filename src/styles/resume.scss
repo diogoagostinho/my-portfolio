@@ -18,3 +18,41 @@
     margin-top: 10px;
   }
 }
+
+@media screen and (max-width: 820px) {
+  .resume-block {
+    margin-top: 1rem;
+    h3 {
+      font-size: 2ch;
+    }
+    h2 {
+      font-size: 1.2ch;
+    }
+    p {
+      margin-top: 6px;
+      font-size: 1.6ch;
+    }
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .work__header {
+    h1 {
+      font-size: 2.8ch;
+    }
+    h2 {
+      font-size: 1.7ch;
+    }
+  }
+  .resume-block {
+    h3 {
+      font-size: 1.7ch;
+    }
+    h2 {
+      font-size: 1.1ch;
+    }
+    p {
+      font-size: 1.4ch;
+    }
+  }
+}

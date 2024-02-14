@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import ListItem from "../components/ListItem";
 import NavigationButton from "../components/NavigationButton";
 import { useEffect } from "react";
+import SideMenu from "../components/SideMenu";
 
 function Experience() {
   useEffect(() => {
@@ -11,6 +12,9 @@ function Experience() {
   return (
     <>
       <Fade duration={200}>
+        <div className="sidemenu">
+          <SideMenu />
+        </div>
         <div className="work">
           <div className="work__content">
             <div className="work-left">
