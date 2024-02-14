@@ -21,7 +21,7 @@ function Resume() {
               <div className="work__header">
                 <h1>Resume</h1>
                 <h2>
-                  See where i’ve studied/worked and all of my certificates
+                  See where I've studied/worked and all of my certificates
                 </h2>
               </div>
               <div className="work__section">

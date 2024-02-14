@@ -7,7 +7,7 @@ function SideMenu() {
 
   useEffect(() => {
     setWebTitle(document.title);
-  }, []);
+  });
 
   let isAbout = false;
   let isWork = false;
