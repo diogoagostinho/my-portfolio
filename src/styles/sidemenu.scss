@@ -1,0 +1,14 @@
+@use "../main";
+
+.sidemenu__block {
+  background-color: transparent;
+  padding: 2rem 1rem;
+}
+
+.sidemenu__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: center;
+  align-items: center;
+}

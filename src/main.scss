@@ -86,3 +86,14 @@ p {
   font-weight: $regular;
   color: $lighter-black;
 }
+
+.sidemenu {
+  display: none;
+}
+
+@media screen and (max-width: 820px) {
+  .sidemenu {
+    display: flex;
+    justify-content: center;
+  }
+}

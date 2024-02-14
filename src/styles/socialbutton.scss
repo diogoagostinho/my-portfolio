@@ -44,3 +44,21 @@
   background: main.$light-red;
   box-shadow: 0px 0px 50px 0px main.$light-red;
 }
+
+@media screen and (max-width: 1120px) {
+  .social-button {
+    width: 12rem;
+
+    .sb__content {
+      padding: 0.3rem;
+
+      .sb-left {
+        width: 2.5rem;
+        img {
+          width: 100%;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}

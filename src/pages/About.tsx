@@ -1,12 +1,20 @@
+import { useEffect } from "react";
 import NavigationButton from "../components/NavigationButton";
 import SocialButton from "../components/SocialButton";
 import "../styles/about.scss";
 import { Fade } from "react-awesome-reveal";
+import SideMenu from "../components/SideMenu";
 
 function About() {
+  useEffect(() => {
+    document.title = "Diogo Agostinho - About";
+  });
   return (
     <>
       <Fade duration={300}>
+        <div className="sidemenu">
+          <SideMenu />
+        </div>
         <div className="about">
           <div className="about__container">
             <div className="about__content">

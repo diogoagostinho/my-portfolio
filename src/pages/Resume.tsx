@@ -2,8 +2,12 @@ import { Fade } from "react-awesome-reveal";
 import Footer from "../components/Footer";
 import NavigationButton from "../components/NavigationButton";
 import "../styles/resume.scss";
+import { useEffect } from "react";
 
 function Resume() {
+  useEffect(() => {
+    document.title = "Diogo Agostinho - Resume";
+  });
   return (
     <>
       <Fade duration={300}>

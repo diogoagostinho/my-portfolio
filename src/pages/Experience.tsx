@@ -2,8 +2,12 @@ import { Fade } from "react-awesome-reveal";
 import Footer from "../components/Footer";
 import ListItem from "../components/ListItem";
 import NavigationButton from "../components/NavigationButton";
+import { useEffect } from "react";
 
 function Experience() {
+  useEffect(() => {
+    document.title = "Diogo Agostinho - Experience";
+  });
   return (
     <>
       <Fade duration={200}>

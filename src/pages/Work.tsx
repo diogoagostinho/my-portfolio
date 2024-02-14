@@ -3,11 +3,19 @@ import Footer from "../components/Footer";
 import NavigationButton from "../components/NavigationButton";
 import PortfolioItem from "../components/PortfolioItem";
 import "../styles/work.scss";
+import { useEffect } from "react";
+import SideMenu from "../components/SideMenu";
 
 function Work() {
+  useEffect(() => {
+    document.title = "Diogo Agostinho - Work";
+  });
   return (
     <>
       <Fade duration={300}>
+        <div className="sidemenu">
+          <SideMenu />
+        </div>
         <div className="work">
           <div className="work__content">
             <div className="work-left">
