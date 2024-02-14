@@ -4,6 +4,7 @@ import ListItem from "../components/ListItem";
 import NavigationButton from "../components/NavigationButton";
 import { useEffect } from "react";
 import SideMenu from "../components/SideMenu";
+import "../styles/experience.scss";
 
 function Experience() {
   useEffect(() => {

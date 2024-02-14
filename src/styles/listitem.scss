@@ -24,3 +24,19 @@
     }
   }
 }
+
+@media screen and (max-width: 370px) {
+  .listitem {
+    .listitem-left {
+      width: 42px;
+    }
+    .listitem-right {
+      h3 {
+        font-size: 1.3ch;
+      }
+      h2 {
+        font-size: 1.1ch;
+      }
+    }
+  }
+}

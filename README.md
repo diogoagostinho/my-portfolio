@@ -28,22 +28,13 @@
 
 <h3 align="left">Fonts used</h3>
 
-- **[Clash Grotesk](https://www.fontshare.com/fonts/clash-grotesk)**
+- **[Satoshi](https://www.fontshare.com/fonts/satoshi)**
 
 ###
 
 <h3 align="left">Visit website now</h3>
 
 - [N/A](#)
-
-###
-
-<h3 align="left">TO DO:</h3>
-
-- RESPONSIVE
-- Deployment
-
-###
 
 ---
 
