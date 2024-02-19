@@ -29,6 +29,22 @@ function Work() {
                 </p>
                 <div className="work__dividers">
                   <PortfolioItem
+                    title={"4devs"}
+                    desc={
+                      "4DEVS is a blog website made with React and MySQL, inspired by DEV.to"
+                    }
+                    image={"4devs.png"}
+                    link={"https://4devs.work4thenoob.pt/"}
+                    tags={["React", "TypeScript", ""]}
+                  />
+                  <PortfolioItem
+                    title={""}
+                    desc={""}
+                    image={""}
+                    link={""}
+                    tags={[]}
+                  />
+                  <PortfolioItem
                     title={"Wallabank"}
                     desc={
                       "Landing page for wallabank, a global fintech wallet/bank platform"
