@@ -35,15 +35,16 @@ function Work() {
                     }
                     image={"4devs.png"}
                     link={"https://4devs.work4thenoob.pt/"}
-                    tags={["React", "TypeScript", ""]}
+                    tags={[
+                      "React",
+                      "TypeScript",
+                      "MySQL",
+                      "AWS",
+                      "Express",
+                      "Cloudinary",
+                    ]}
                   />
-                  <PortfolioItem
-                    title={""}
-                    desc={""}
-                    image={""}
-                    link={""}
-                    tags={[]}
-                  />
+
                   <PortfolioItem
                     title={"Wallabank"}
                     desc={
@@ -65,6 +66,13 @@ function Work() {
                     desc={"A copy of Firebase Blog with vanilla JS"}
                     image={"firebase.png"}
                     link={"https://diogoagostinho.github.io/firebase-blog/"}
+                    tags={["JavaScript", "jQuery"]}
+                  />
+                  <PortfolioItem
+                    title={"Resume"}
+                    desc={"A simple resume of my work experience"}
+                    image={"resume.png"}
+                    link={"https://diogoagostinho.github.io/resume/"}
                     tags={["JavaScript", "jQuery"]}
                   />
                 </div>
