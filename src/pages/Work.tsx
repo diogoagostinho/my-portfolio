@@ -29,6 +29,13 @@ function Work() {
                 </p>
                 <div className="work__dividers">
                   <PortfolioItem
+                    title={"Webbal"}
+                    desc={"A web dev's portal to quickstart your project"}
+                    image={"webbal.png"}
+                    link={"https://webbal.netlify.app/"}
+                    tags={["React", "TypeScript", "Netlify", "TailwindCSS"]}
+                  />
+                  <PortfolioItem
                     title={"4devs"}
                     desc={
                       "4DEVS is a blog website made with React and MySQL, inspired by DEV.to"
@@ -44,7 +51,6 @@ function Work() {
                       "Cloudinary",
                     ]}
                   />
-
                   <PortfolioItem
                     title={"Wallabank"}
                     desc={
